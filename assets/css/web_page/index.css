@@ -1,0 +1,146 @@
+/* header */
+.background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-color);
+    /* height: 80px; */
+    width: auto;
+    user-select: none;
+}
+
+.left {
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo_link img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.support:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.support_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.right {
+    display: flex;
+    width:300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.language {
+    position: relative;
+}
+
+.language_option {
+    position: absolute;
+    background-color: rgb(46, 46, 51, 0.96);
+    width: 240px;
+    /* height: 100px; */
+    right: 0;
+    top: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.language_option.hidden {
+    visibility: hidden;
+}
+
+.fake_layer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 32px 10px 16px;
+}
+
+.option {
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: rgb(104, 109, 120, 0.9);
+    transition: 0.2s;
+}
+
+.chosen {
+    opacity: 0;
+    height: 16px;
+    width: 16px;
+    margin-right: 16px;
+    margin-left: 12px;
+}
+
+.chosen_default {
+    opacity: 1;
+}
+
+.global {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}
+
+.global:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.log_in, .sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 110px;
+    height: 32px;
+    border-radius: 6px;
+    font-weight: bold;
+    background-color: #343438;
+    cursor: pointer;
+}
+
+.sign_up {
+    background-color: #26baff;
+    color: #01070a;
+}
+
+.log_in:hover {
+    background-color: #646466;
+}
+
+.sign_up:hover {
+    background-color: #73d3ff;
+}
+
+/* main content */
+.main {
+    width: 100%;
+    height: 1000px;
+    background-color: #aaa;
+}

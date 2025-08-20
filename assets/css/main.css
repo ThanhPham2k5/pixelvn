@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "basic_font";
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "basic_font", sans-serif;
+    font-size: 0.94rem;
+}
+
+:root {
+    --header-color: #212121;
+    --body-color:#101014;
+}
