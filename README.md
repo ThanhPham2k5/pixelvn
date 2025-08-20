@@ -9,10 +9,10 @@ Phiên bản 0.1 là bản đầu tiên, mới có giao diện cơ bản và m�
 
 1. Clone project về:
    ```sh
-   git clone https://github.com/ThanhPham2k5/PixelVN-Game-Stores.git
+   git clone https://github.com/ThanhPham2k5/pixelvn.git
 2. Đặt folder vào htdocs (nếu dùng XAMPP) hoặc thư mục web server của bạn.
 
-3. Mở trình duyệt và truy cập: http://localhost/PixelVN-Game-Stores/
+3. Mở trình duyệt và truy cập: http://localhost/pixelvn/
 
 ---
 
